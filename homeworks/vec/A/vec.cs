@@ -19,7 +19,7 @@ public class vec{
 	public static vec operator*(vec u, double c){
 		return new vec(c*u.x, c*u.y, c*u.z);
 	}
-
+	
 	public static vec operator*(double c, vec u){
 		return u*c;
 	}
@@ -31,5 +31,5 @@ public class vec{
 	public static vec operator+(vec u){return u;}
 	public static vec operator-(vec u){return -1*u;}
 	public static vec operator-(vec u, vec v){return u+(-1)*v;}
-	
+
 }

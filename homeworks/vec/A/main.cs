@@ -6,7 +6,7 @@ class main{
 		u.print("u=");
 		vec v = new vec(1, 2, 3);
 		v.print("v=");
-		(u+v).print("u+v=");
+		(u+v).print($"u+v=");
 		var w = 3*u -v;
 		w.print("w=");
 	}
