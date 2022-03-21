@@ -63,5 +63,7 @@ public static complex pow (this complex a, double x){
 	return exp(x*log(a)); }
 public static complex pow (this complex a, complex b){
 	return exp(b*log(a)); }
+public static complex sinh(complex z) {return -I*sin(I*z);}
+public static complex cosh(complex z) {return cos(I*z);}
 
 }// cmath
