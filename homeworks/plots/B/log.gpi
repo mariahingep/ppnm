@@ -1,0 +1,7 @@
+set terminal png 
+set output 'gamma.gnuplot.png' 
+set xlabel 'x' 
+set ylabel 'y' 
+set title 'Gamma function' 
+plot [0:5] 'gamma.data.txt' index 0 using 1:2 with lines title 'Gamma', 'gamma.tab.txt' with points pointtype 6 title 'tab' 
+
