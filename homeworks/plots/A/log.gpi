@@ -1,0 +1,7 @@
+set terminal png 
+set output 'erf.gnuplot.png' 
+set xlabel 'x' 
+set ylabel 'y' 
+set title 'Error function' 
+plot [-1.5:1.5] [-1.5:1.5] 'erf.data.txt' index 0 using 1:2 with lines title 'erf', 'erf.tab.txt' with points pointtype 6 title 'tab' 
+
