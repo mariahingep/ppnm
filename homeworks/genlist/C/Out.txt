@@ -1,0 +1,4 @@
+Test of implementation of lists with nodes:
+1
+2
+3
