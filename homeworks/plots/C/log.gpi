@@ -2,7 +2,7 @@ set terminal png
 set output "complexgamma.gnuplot.png" 
 set xlabel "$Re(z)$" 
 set ylabel "$Im(z)$" 
-set zlabel "$|\Gamma (z)|$" 
+set zlabel "$|Gamma (z)|$" 
 set title "Complex gamma function" 
 splot [-5:5] [-5:5] [0:10] "erf.data.txt" index 0 using 1:2:3 with lines title "$|\Gamma(z)|$" 
 

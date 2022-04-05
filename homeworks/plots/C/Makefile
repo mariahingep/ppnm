@@ -6,7 +6,7 @@ complexgamma.gnuplot.png: erf.data.txt Makefile
 	set output "$@" \n\
 	set xlabel "$$Re(z)$$" \n\
 	set ylabel "$$Im(z)$$" \n\
-	set zlabel "$$|\\Gamma (z)|$$" \n\
+	set zlabel "$$|Gamma (z)|$$" \n\
 	set title "Complex gamma function" \n\
 	splot [-5:5] [-5:5] [0:10] "$<" index 0 using 1:2:3 with lines title "$$|\\Gamma(z)|$$" \n\
 	'| tee log.gpi | gnuplot
