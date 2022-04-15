@@ -4,4 +4,4 @@ set title "Linear interpolation"
 set xlabel "x" 
 set ylabel "y" 
 set key out 
-plot "data.txt" index 0 using 1:2 with points pointtype 6 pointsize 2 title "data" ,"data.txt" index 1 using 1:2 with lines title "linterp" ,"data.txt" index 1 using 1:3 with lines title "integral"; 
+plot "data.txt" index 0 using 1:2 with points pointtype 5 pointsize 2 title "data" ,"data.txt" index 1 using 1:2 with lines title "linterp" ,"data.txt" index 1 using 1:3 with lines title "integral"; 
