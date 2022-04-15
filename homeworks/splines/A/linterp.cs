@@ -1,5 +1,5 @@
-using System;
 using static System.Console;
+using System;
 using static System.Math;
 public static partial class matlib{
 	public static double linterp(double[] x, double[] y, double z){
@@ -14,7 +14,7 @@ public static partial class matlib{
 		/* locates the interval for z by bisection */
 		if(!(x[0]<=z && z<=x[x.Length-1])) throw new Exception("binsearch: bad z");
 		int i = 0, j = x.Length-1;
-		while(j-j>1){
+		while(j-i>1){
 			int mid = (i+j)/2;
 			if(z>x[mid]) i=mid; else j=mid;
 		}
