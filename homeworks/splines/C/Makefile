@@ -9,7 +9,7 @@ fig.png: data.txt Makefile
 	set ylabel "y" \n\
 	set key out \n\
 	plot \
-	,"data.txt." index 0 using 1:2 with points pointtype 5 pointsize 3 title "data" \
+	"data.txt" index 0 using 1:2 with points pointtype 5 pointsize 3 title "data" \
 	,"data.txt" index 1 using 1:2 with lines title "c-spline" \
 	,"data.txt" index 1 using 1:3 with lines title "derivative" \
 	,"data.txt" index 1 using 1:4 with lines title "integral" \
