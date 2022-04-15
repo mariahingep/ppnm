@@ -1,3 +1,5 @@
+all: fig.png main.exe
+
 fig.png: data.txt Makefile
 	echo '\
 	set terminal png \n\
