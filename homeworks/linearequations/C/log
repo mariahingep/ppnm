@@ -6,5 +6,5 @@ set ylabel "y"
 set key out 
 f(x) = a*x*x*x+b 
 fit f(x) "out.txt" index 0 using 1:2 via a,b 
-plot "out.txt" index 0 using 1:2 with points title "decomposed time" f(x) title "fit" 
+plot "out.txt" index 0 using 1:2 with points title "decomposed time" ,f(x) title "fit" 
 

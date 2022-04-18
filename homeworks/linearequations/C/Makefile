@@ -16,7 +16,7 @@ time.png: out.txt Makefile
 	fit f(x) "out.txt" index 0 using 1:2 via a,b \n\
 	plot \
 	"out.txt" index 0 using 1:2 with points title "decomposed time" \
-	f(x) title "fit" \n\
+	,f(x) title "fit" \n\
 	' | tee log | gnuplot
 
 main.exe: main.cs qrgs.dll matrix.dll vector.dll
