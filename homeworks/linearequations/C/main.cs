@@ -6,7 +6,7 @@ public class main{
 	public static void Main(){
 		/* Generating random matrix */
 		var rand = new Random();
-		int N = 300;
+		int N = 400;
 		for(int n = 10; n <= N; n += 10){
 			matrix Q = new matrix(n,n);
 			matrix R = new matrix(n,n);
