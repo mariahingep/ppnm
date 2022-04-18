@@ -13,7 +13,7 @@ fig.png: out.txt Makefile
 	set ylabel "percent activity" \n\
 	set key out \n\
 	plot \
-	"out.txt" index 0 using 1:2:3 pointtype 7 pointsize 2 with yerrorbars title "data" \
+	"out.txt" index 0 using 1:2:3 pointtype 7 pointsize 1 with yerrorbars title "data" \
 	,"out.txt" index 1 using 1:2 with lines title "least-squares fit" \
 	' | tee log | gnuplot
 
