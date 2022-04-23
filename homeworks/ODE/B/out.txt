@@ -1,0 +1,2 @@
+B: test using genlists
+Used example from scipy.odeint and result plotted in scipyodint.png.
