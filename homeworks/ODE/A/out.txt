@@ -1,0 +1,5 @@
+Test of scipy.integrate.odeint example
+Results are plotted ion scipyodeint.png
+Test of example
+Diff.eq. u''=-u solved for initial conditions y0=(0,1). 
+Results plotted in oscillator.png

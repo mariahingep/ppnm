@@ -1,0 +1,9 @@
+set terminal png 
+set output "oscillator.png" 
+set title "Solution harmonic oscillator with y0=(0,1)" 
+set xlabel "t" 
+set ylabel "numerical solution" 
+set key out 
+set grid 
+set xrange [0:10] 
+plot "oscillator.txt" index 0 using 1:2 with lines title "sin(t)" ,"oscillator.txt" index 0 using 1:3 with lines title "cos(t)" 
