@@ -1,0 +1,7 @@
+set terminal png 
+set output "threebody.png" 
+set title "Solution figure-8 problem" 
+set xlabel "x" 
+set ylabel "y" 
+set key out 
+plot [][] "out.txt" index 0 using 2:3 with lines title "body 1" ,"out.txt" index 0 using 6:7 with lines title "body 2" ,"out.txt" index 0 using 10:11 with lines title "body" 
