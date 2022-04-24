@@ -1,0 +1,9 @@
+Test of integrator
+The integral of Sqrt(x) from 0 to 1 = 0.666953909054655, 
+expected to be = 0.666666666666667
+The integral of 1/Sqrt(x) from 0 to 1 = 1.99996150007805, 
+expected to be = 2
+The integral of 4/Sqrt(1-x^2) from 0 to 1 = 3.14183457802727, 
+expected to be = 3.14159265358979
+The integral of Log(x)/Sqrt(x) from 0 to 1 = -3.99991705899915, 
+expected to be = -4

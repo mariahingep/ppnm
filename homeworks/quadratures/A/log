@@ -1,0 +1,8 @@
+set terminal png 
+set output "erf.png" 
+set title "error function" 
+set xlabel "x" 
+set ylabel "erf(x)" 
+set key out 
+set grid 
+plot [][] "erf.txt" index 0 using 1:2 with lines title "integrated" ,"erfwiki.txt" index 0 using 1:2 with points title "table values" 
