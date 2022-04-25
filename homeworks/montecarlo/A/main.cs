@@ -21,7 +21,7 @@ public class main{
 		var res2 = mc.plainmc(f2, a2, b2, 100000);
 
 		WriteLine($"Result is {res2.Item1} with the error {res2.Item2}");
-		WriteLine("The result should be {PI/12}\n");
+		WriteLine("The result should be pi/12 = {PI/12}\n");
 
 		WriteLine("The integral of 1/(pi^3*{1-cos(x)*cos(y)*cos(z)}) with xlims = ylims = zlims = [0,pi]:");
 		Func<vector, double> f3 = xyz => 1.0/(Pow(PI,3)*(1.0-Cos(xyz[0])*Cos(xyz[1])*Cos(xyz[2])));
