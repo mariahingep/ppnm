@@ -1,0 +1,13 @@
+Test of Monte Carlo implementation on a few integrals
+
+(Examples from Wikipedia) The integral of x^2 + 4y with xlims = [11,14] and ylims = [7,10]:
+Result is 1718.63856722995 with the error 0.625041476446194
+The result should be 1719
+
+The integral of x^2/(1+y^2) with xlims = [0,1] and ylims = [0,1]:
+Result is 0.260759451048643 with the error 0.000772417040924555
+The result should be {PI/12}
+
+The integral of 1/(pi^3*{1-cos(x)*cos(y)*cos(z)}) with xlims = ylims = zlims = [0,pi]:
+Result is 1.35976991842927 with the error 0.0102193618409322
+The result should be 1.393203929668...
