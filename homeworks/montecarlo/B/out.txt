@@ -1,0 +1,18 @@
+Test of Monte Carlo implementation on a few integrals
+
+(Examples from Wikipedia) The integral of x^2 + 4y with xlims = [11,14] and ylims = [7,10]:
+Plain Monte Carlo is 1719.97527672567 with the error 0.625090464677162
+Quasi Monte Carlo is 1718.98246441332 with the error 0.1547345482889
+The result should be 1719
+
+The integral of x^2/(1+y^2) with xlims = [0,1] and ylims = [0,1]:
+Plain Monte Carlo is 0.261631597685205 with the error 0.000775888582364874
+Quasi Monte Carlo is 0.261789295274635 with the error 9.93684769166059E-05
+The result should be pi/12 = {PI/12}
+
+The integral of 1/(pi^3*{1-cos(x)*cos(y)*cos(z)}) with xlims = ylims = zlims = [0,pi]:
+Plain Monte Carlo is 1.35921154951532 with the error 0.00998609365325407
+Quasi Monte Carlo is Infinity with the error NaN
+The result should be 1.393203929668...
+
+Errors from quasi Monte Carlo seems to be smaller than for Plain Monte Carlo.
