@@ -18,9 +18,9 @@ It is defined in severals different ways, but for this introduction the followin
 \end{equation}
 Its value at $1$, $e = \exp(1)$ is a mathematical constant known as Euler's number. \footnote{https://en.wikipedia.org/wiki/Exponential\_function} \
 
-To implement the function, the code shown in the figure \ref{code:exp} is used.
+To implement the function, the code shown in figure \ref{code:exp} is used.
 
-\begin{figure} \label{fig:plot}
+\begin{figure}\label{fig:plot}
 	\centering
 		\input{exp_plot}
 	\caption{Plot of the exponential function by the code.}
@@ -29,7 +29,7 @@ To implement the function, the code shown in the figure \ref{code:exp} is used.
 If the argument is below $0$, the function returns $1/e^x$ which is equivalent to $e^{-x}$.
 For relatively large $x$ (i.e. $x>$ 1/8) the recursive definition $\exp{x}=(\exp{x/2})^2$ is used, while the Taylor expansion in equation \ref{eq:def} can be used for smaller, but positive values of $x$.
 
-The implementation is then tested by plotting it against known table values, which is done in figure \ref{fig:plot}.
+The implementation is then tested by plotting it against known table values, which is done in figure \ref{code:exp}.
 And it works.
 
 \begin{lstlisting}[breaklines]
