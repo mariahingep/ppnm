@@ -1,6 +1,6 @@
 set terminal epslatex monochrome
 set output "exp_plot.tex"
-set size 0.6
+set size 0.8
 set xlabel "$x$"
 set ylabel "$t$"
 set tics out

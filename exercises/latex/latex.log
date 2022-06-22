@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.21)  22 JUN 2022 13:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.21)  22 JUN 2022 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -315,25 +315,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \gptboxwidth=\skip51
 \gptboxtext=\box51
 Package epstopdf Info: Source file: <exp_plot.eps>
-(epstopdf)                    date: 2022-06-22 13:13:09
-(epstopdf)                    size: 18887 bytes
+(epstopdf)                    date: 2022-06-22 13:14:24
+(epstopdf)                    size: 18893 bytes
 (epstopdf)             Output file: <exp_plot-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-06-22 13:13:10
-(epstopdf)                    size: 3247 bytes
+(epstopdf)                    date: 2022-06-22 13:14:24
+(epstopdf)                    size: 3278 bytes
 (epstopdf)             Command: <repstopdf --outfile=exp_plot-eps-converted-to.
 pdf exp_plot.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
-<exp_plot-eps-converted-to.pdf, id=10, 216.81pt x 151.56625pt>
+<exp_plot-eps-converted-to.pdf, id=10, 289.08pt x 201.75375pt>
 File: exp_plot-eps-converted-to.pdf Graphic file (type pdf)
 <use exp_plot-eps-converted-to.pdf>
 Package pdftex.def Info: exp_plot-eps-converted-to.pdf  used on input line 111.
 
-(pdftex.def)             Requested size: 216.81938pt x 151.76938pt.
-) [1
-
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./exp_p
-lot-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 289.09251pt x 202.35663pt.
+)
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
 6.
 
@@ -350,14 +347,17 @@ File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 37.
- [2] (./latex.aux)
+ [1
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./e
+xp_plot-eps-converted-to.pdf>] (./latex.aux)
 Package rerunfilecheck Info: File `latex.out' has not changed.
 (rerunfilecheck)             Checksum: B56C336949EBAC00CD4A54959CDEC129;255.
  ) 
 Here is how much of TeX's memory you used:
  10636 strings out of 478994
  161092 string characters out of 5858184
- 482660 words of memory out of 5000000
+ 489660 words of memory out of 5000000
  27998 multiletter control sequences out of 15000+600000
  408321 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -375,7 +375,7 @@ exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on latex.pdf (2 pages, 118217 bytes).
+Output written on latex.pdf (2 pages, 118208 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream
