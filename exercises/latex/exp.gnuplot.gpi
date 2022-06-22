@@ -1,0 +1,9 @@
+set terminal epslatex monochrome
+set output "exp_plot.tex"
+set size 0.5
+set xlabel "$x$"
+set ylabel "$t$"
+set tics out
+plot\
+"out.exp.txt" with lines title "$e^x$"\
+,"tab.exp.txt" with points title "Tabulated data"\
