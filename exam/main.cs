@@ -28,10 +28,6 @@ class main{
 		vector e = eigenvals.det(A,p);
 		e.print();
 		WriteLine($"");
-		vector eig = eigenvals.test(A,e,p);
-		WriteLine($"Checking if eigenvalues returns 0-vector: {eig.approx(new vector(n))}");
-		WriteLine($"");
-		eig.print();
 
 	}
 }

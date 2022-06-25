@@ -57,16 +57,4 @@ public class eigenvals{
 		return e;
 	}
 
-	public static vector test(matrix A, vector e, int p){
-		int n = A.size1;
-		vector eig = new vector(n);
-		for(int j = 0; j < n; j++){
-			for(int k = 0; k < n; k++){
-				if(k == p) eig[j] = eig[j]-(A[p,p]-e[j]);
-				else eig[j] = eig[j]+A[k,p]*A[k,p]/(A[k,k]-e[j]);
-			}
-		}
-		return eig;
-	}
-
 }
