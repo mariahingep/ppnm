@@ -17,4 +17,4 @@ vector.dll: vector.cs
 	mcs -target:library $<
 
 clean:
-	$(RM) *.exe *.txt *.dll
+	$(RM) *.exe *.txt *.dll	*.png
