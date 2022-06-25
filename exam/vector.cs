@@ -1,4 +1,4 @@
-// () 2020 Dmitri Fedorov; License: GNU GPL v3+; no warranty.
+// (C) 2020 Dmitri Fedorov; License: GNU GPL v3+; no warranty.
 using System;
 using System.IO;
 using static System.Math;
